@@ -16,7 +16,7 @@ ul {
 }
 
 .link:hover,
-.link:active {
+.link:focus {
   color: #404bbf;
 }
 
