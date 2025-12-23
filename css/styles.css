@@ -60,6 +60,19 @@ nav {
   color: #2e2f42;
 }
 
+nav a:visited {
+  color: #2e2f42;
+}
+
+address a {
+  font-style: normal;
+  color: #434455;
+}
+
+address a:visited {
+  color: #434455;
+}
+
 #main-title {
   background-color: #2e2f42;
 }
@@ -73,6 +86,10 @@ nav {
 
 #team {
   background-color: #f4f4fd;
+}
+
+#team li {
+  background-color: #ffffff;
 }
 
 #team .title3,
