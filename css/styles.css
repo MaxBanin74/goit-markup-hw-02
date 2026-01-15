@@ -2,12 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -15,27 +16,12 @@ ul {
   list-style-type: none;
 }
 
-.link:hover,
-.link:focus {
-  color: #404bbf;
+button {
+  cursor: pointer;
+  font-family: inherit;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.167;
-  letter-spacing: 3%;
-}
-
-.title1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.071;
-  color: #ffffff;
-}
-
-.title2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
@@ -43,64 +29,83 @@ ul {
   text-align: center;
 }
 
-.title3 {
+.sub-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
 }
 
-.buttons {
-  cursor: pointer;
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
 
-nav {
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.nav-link {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   color: #2e2f42;
 }
 
-nav a:visited {
-  color: #2e2f42;
-}
-
-address a {
-  font-style: normal;
+.addr-link {
+  font-style: normal; /* наклонний шрифт за замовчуванням */
   color: #434455;
 }
 
-address a:visited {
-  color: #434455;
+.nav-link:hover,
+.nav-link:focus,
+.addr-link:hover,
+.addr-link:focus {
+  color: #404bbf;
 }
 
-#main-title {
+.main-section {
   background-color: #2e2f42;
 }
 
-#main-title > button {
-  background-color: #4d5ae5;
-  font-weight: 500;
-  letter-spacing: 4%;
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.071;
   color: #ffffff;
 }
 
-#team {
+.main-button {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.team-section {
   background-color: #f4f4fd;
 }
 
-#team li {
+.team-item {
   background-color: #ffffff;
 }
 
-#team .title3,
-#team p {
+.team-section .sub-title,
+.team-text {
   text-align: center;
 }
 
-footer {
+.page-footer {
   background-color: #2e2f42;
 }
 
-footer p {
+.footer-text {
   color: #f4f4fd;
 }
