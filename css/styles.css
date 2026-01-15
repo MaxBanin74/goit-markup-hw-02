@@ -24,14 +24,16 @@ button {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .sub-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -78,6 +80,7 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.071;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
@@ -96,14 +99,14 @@ button {
 }
 
 .team-section {
-  background-color: #404bbf;
+  background-color: #f4f4fd;
 }
 
 .team-item {
   background-color: #ffffff;
 }
 
-.team-section .sub-title,
+.team-title,
 .team-text {
   text-align: center;
 }
